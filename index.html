@@ -54,6 +54,7 @@
                     objects of its environment to provide programmatic control over
                     them.
                 </p>
+
                 <p>
                     JavaScript contains a standard library of objects, such as Array,
                     Date, and Math, and a core set of language elements such as
@@ -137,7 +138,8 @@
                 your first "Hello world" JavaScript code:
                 <code>function greetMe(yourName) { alert("Hello " + yourName); }
                 greetMe("World");
-                </code>
+              </code>
+
                 Select the code in the pad and hit Ctrl+R to watch it unfold in your
                 browser!
             </article>
@@ -392,6 +394,7 @@
             <article>
                 A function definition (also called a function declaration, or function
                 statement) consists of the function keyword, followed by:
+
                 <ul>
                     <li>The name of the function.</li>
                     <li>
@@ -407,18 +410,35 @@
                     For example, the following code defines a simple function named
                     square:
                 </p>
-                <section class="main-section" id="Reference">
-                    <header>Reference</header>
-                    <article>
-                        <ul>
-                            <li>
-                                All the documentation in this page is taken from
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                                    target="_blank">MDN</a>
-                            </li>
-                        </ul>
-                    </article>
-                </section>
+
+                <code>function square(number) { return number * number; }</code>
+                <p>
+                    The function square takes one argument, called number. The function
+                    consists of one statement that says to return the argument of the
+                    function (that is, number) multiplied by itself. The return
+                    statement specifies the value returned by the function.
+                </p>
+                <code>return number * number;</code>
+                <p>
+                    Primitive parameters (such as a number) are passed to functions by
+                    value; the value is passed to the function, but if the function
+                    changes the value of the parameter, this change is not reflected
+                    globally or in the calling function.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <article>
+                <ul>
+                    <li>
+                        All the documentation in this page is taken from
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
