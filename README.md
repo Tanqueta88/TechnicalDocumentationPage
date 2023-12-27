@@ -1,5 +1,7 @@
 <u><b>TechnicalDocumentationPage</b></u><br/>
 
+![Image text](https://github.com/Tanqueta88/TechnicalDocumentationPage/blob/master/TechnicalDocumentation.png)
+
 ## Content
 * [General information](#introduccion)
 * [Technologies](#technologies)
