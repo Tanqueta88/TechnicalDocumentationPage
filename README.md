@@ -1,4 +1,4 @@
-# TechnicalDocumentationPage
+# Technical Documentation Page
 
 ![Image text](https://github.com/Tanqueta88/TechnicalDocumentationPage/blob/master/TechniclaDocumentationImage.png)
 
